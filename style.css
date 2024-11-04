@@ -43,12 +43,15 @@ nav a:hover {
 /* Estilo das seções */
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens verticalmente */
 }
 
 section {
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+    margin: 20px 0; /* Margem vertical */
+    max-width: 800px; /* Limita a largura da seção */
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -61,6 +64,9 @@ section {
     padding: 15px;
     border-radius: 8px;
     background: #fafafa;
+    text-align: center; /* Centraliza o texto dentro do produto */
+    width: 100%; /* Para garantir que ocupe a largura disponível */
+    max-width: 300px; /* Limita a largura máxima dos produtos */
 }
 
 /* Estilo do rodapé */
