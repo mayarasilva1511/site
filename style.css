@@ -9,13 +9,13 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f8f8f8;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background: #e3a5b7;
+    background: #4CAF50;
     color: white;
     padding: 20px;
     text-align: center;
@@ -57,24 +57,10 @@ section {
 /* Estilo dos produtos */
 .produto {
     border: 1px solid #ccc;
-    margin: 10px;
-    padding: 10px;
-    display: inline-block;
-    width: calc(30% - 20px);
-    border-radius: 8px;
-    text-align: center;
-    background: #fafafa;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.produto img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
-
-.produto h3 {
     margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    background: #fafafa;
 }
 
 /* Estilo do rodapé */
@@ -86,11 +72,4 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
-}
-
-/* Responsividade */
-@media (max-width: 600px) {
-    .produto {
-        width: calc(100% - 20px);
-    }
 }
