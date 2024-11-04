@@ -1,30 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes Sociais</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+    <title>Loja de Perfumes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Loja Online</h1>
+        <h1>Loja de Perfumes</h1>
         <nav>
-            <a href="index.html">Mundo</a>
-            <a href="#">Minha escola</a>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
-    <main class="graficos-section">
-        <section id="graficos-container" class="graficos-container">
-            <!-- crie os gráficos/texto aqui -->
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produto">
+                <h3>Perfume Floral</h3>
+                <p>Uma fragrância fresca e delicada, perfeita para o dia a dia.</p>
+                <p>Preço: R$ 89,90</p>
+            </div>
+            <div class="produto">
+                <h3>Perfume Amadeirado</h3>
+                <p>Uma essência marcante e intensa, ideal para a noite.</p>
+                <p>Preço: R$ 129,90</p>
+            </div>
+            <div class="produto">
+                <h3>Perfume Oriental</h3>
+                <p>Um aroma exótico e envolvente que deixa uma impressão duradoura.</p>
+                <p>Preço: R$ 109,90</p>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A nossa loja oferece uma seleção exclusiva de perfumes de qualidade, buscando sempre a satisfação dos nossos clientes.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: contato@lojadeperfumes.com.br</p>
+            <p>Telefone: (11) 1234-5678</p>
         </section>
     </main>
+
     <footer>
-        <p>Desenvolvido por may silva</p>
+        <p>&copy; 2024 Loja de Perfumes. Todos os direitos reservados.</p>
     </footer>
-    <script type="module" src="graficos/common.js"></script>
-    <script type="module" src="graficos/informacoesGlobais.js"></script>
-    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
 </body>
 </html>
