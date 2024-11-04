@@ -1,37 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/estilo.css" rel="stylesheet">
-    <title>Site de vendas</title>
+    <title>Boticário - Produtos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <h1>Produtos do Boticário</h1>
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav class="barra_navegacao" id="barra_01">
-        <div class="logo">Loja roupa</div>
-        <div class="Elementos_nav"></div>
-    </nav>
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produto">
+                <h3>Perfume 1</h3>
+                <img src="images/produto1.jpg" alt="Perfume 1">
+                <p>Uma fragrância encantadora que combina frescor e elegância.</p>
+                <p>Preço: R$ 99,90</p>
+            </div>
+            <div class="produto">
+                <h3>Perfume 2</h3>
+                <img src="images/produto2.jpg" alt="Perfume 2">
+                <p>Um perfume exótico e marcante, ideal para qualquer ocasião.</p>
+                <p>Preço: R$ 129,90</p>
+            </div>
+            <div class="produto">
+                <h3>Perfume 3</h3>
+                <img src="images/produto3.jpg" alt="Perfume 3">
+                <p>Fragrância suave que proporciona frescor durante o dia todo.</p>
+                <p>Preço: R$ 89,90</p>
+            </div>
+        </section>
 
-    <div id="pagina">
-    
-    <div class="banner" id="banner_1"></div>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A Boticário é uma marca que oferece produtos de beleza e cuidados pessoais com qualidade e inovação.</p>
+        </section>
 
-    <div id="PortaCard1" class="CardsElementos"></div>
-    
-    </div>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: contato@boticario.com.br</p>
+            <p>Telefone: (11) 1234-5678</p>
+        </section>
+    </main>
 
     <footer>
-        <div class="socialmedia">
-            <ul>
-                <li><a href="#"> <img src="./img/Facebook.png"> </a></li>
-                <li><a href="#"> <img src="./img/Facebook.png"> </a></li>
-                <li><a href="#"> <img src="./img/Facebook.png"> </a></li>
-            </ul>
-        </div>
-        <h4>Site criado por Felipe Catão, 2023 😊</h4>
+        <p>&copy; 2024 Boticário. Todos os direitos reservados.</p>
     </footer>
-
-    <script src="./js/main.js" type="module"></script>
 </body>
 </html>
